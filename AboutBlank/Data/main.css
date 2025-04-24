@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    left: 90%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    max-width: 85%;
+    max-height: 85%;
+    animation: FadeIn 2s ease-in-out;
+    opacity: 0.5;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    animation: FadeIn 2s ease-in-out;
+}
+
+.H1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    animation: FadeIn 4s ease-in-out;
+}
+
+.hgames{
+    color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    animation: FadeIn 7s ease-in-out;
+}
+
+.Slope{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+    max-height: 20%;
+    animation: FadeIn 3s ease-in-out;
+    opacity: 1;
+}
+
+.Mario63{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 10;
+    max-height: 16%;
+    animation: FadeIn 3s ease-in-out;
+    opacity: 1;
+}
+
+.TIQ{
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    max-width: 10;
+    max-height: 16%;
+    animation: FadeIn 3s ease-in-out;
+    opacity: 1;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
